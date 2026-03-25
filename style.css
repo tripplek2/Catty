@@ -1,6 +1,5 @@
-
 /* Cat container */
-.cat-container{
+.cat-breed-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -8,7 +7,7 @@
 }
 
 /* Cat breed card */
-.cat-breed{
+.cat-breed {
     flex: 1 1 300px;
     margin: 1em;
     padding: 1em;
@@ -20,36 +19,35 @@
 }
 
 /* Images */
-.cat-breed img{
+.cat-breed img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
 /* Headings */
-.cat-breed h3{
+.cat-breed h3 {
     margin: 0.5em 0;
 }
 
 /* Paragraphs */
-.cat-breed p{
+.cat-breed p {
     margin: 0.5em 0 1em;
 }
 
 /* Hover effect */
-.cat-breed:hover{
+.cat-breed:hover {
     transform: scale(1.05);
 }
 
 /* Responsive layout */
-@media (max-width:768px){
-
-    .cat-container{
+@media (max-width: 768px) {
+    .cat-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .cat-breed{
+    .cat-breed {
         flex: 1 1 100%;
         max-width: 100%;
     }
